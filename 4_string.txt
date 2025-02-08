@@ -1,0 +1,12 @@
+<?php
+	$a = "Hello world!\n";
+	echo $a;
+
+	$b = "Hello sehaj!\n";
+	echo $b;
+
+	$c = "Stay here, I'll be back.";
+	echo $c;
+	
+	echo "executed by sehaj"
+?>

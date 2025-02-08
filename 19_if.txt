@@ -1,0 +1,11 @@
+<?php
+    $a = 50;
+    $b = 80;
+    if($a < $b)
+    {
+    	echo "Out of $a and $b, $a is smaller.." ;
+    }
+    echo "\n";
+    
+	echo "executed by sehaj"
+?>

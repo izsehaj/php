@@ -1,0 +1,9 @@
+<?php
+    define("GREETING", "hello world!", true);
+    echo GREETING;
+    echo "\n";
+    echo greeting;
+    echo "\n";
+    
+	echo "executed by sehaj"
+?>

@@ -1,0 +1,15 @@
+<?php
+	$a = 456; // decimal number
+	var_dump($a);
+
+	$b = -789; // a negative number
+	var_dump($b);
+
+	$c = 0x1A; // hexadecimal number
+	var_dump($c);
+
+	$d = 0234; // octal number
+	var_dump($d);
+	
+	echo "executed by sehaj"
+?>

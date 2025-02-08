@@ -1,0 +1,13 @@
+<?php
+$number = 6; // Replace with any number
+$result = 1;
+
+for ($i = 1; $i <= $number; $i++) {
+    $result *= $i;
+}
+
+echo "The factorial of $number is: " . $result;
+
+echo "\n";
+echo "executed by sehaj";
+?>

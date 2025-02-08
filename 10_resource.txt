@@ -1,0 +1,6 @@
+<?php
+    $handle = fopen("new.txt", "r");
+    var_dump($handle);
+    
+	echo "executed by sehaj"
+?>

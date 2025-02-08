@@ -1,0 +1,14 @@
+<?php
+$num1 = 25; // Replace with the first number
+$num2 = 50; // Replace with the second number
+
+while ($num2 != 0) {
+    $temp = $num2;
+    $num2 = $num1 % $num2;
+    $num1 = $temp;
+}
+
+echo "The HCF is: " . $num1;
+echo "\n";
+echo "executed by sehaj";
+?>

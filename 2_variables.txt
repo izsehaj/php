@@ -1,0 +1,13 @@
+// variables in php
+
+<?php
+	$str="hello string";
+	$x=100;
+	$y=71.6;
+
+	echo "string is: $str \n";
+	echo "integer is: $x \n";
+	echo "float is: $y \n";
+	
+	echo "executed bty sehaj"
+?>
