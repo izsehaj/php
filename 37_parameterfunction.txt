@@ -1,0 +1,10 @@
+<?php
+		function addFunction($num1, $num2)
+		{
+			$sum = $num1+$num2;
+			echo "Sum Of The Two Numbers Is: $sum ";
+		} 
+		addFunction(10,20);
+echo "\n";
+echo "executed by sehaj";
+?>

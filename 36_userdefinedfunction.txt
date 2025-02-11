@@ -1,0 +1,10 @@
+<?php
+	function writeMessage()
+	{
+		echo "You are a really nice person, Have a nice day!!";
+	}
+	
+	writeMessage();
+echo "\n";
+echo "executed by sehaj";
+?>
