@@ -1,0 +1,43 @@
+<?php 	
+	// Bitwise AND 
+	$First = 5; 
+	$second = 3; 
+	$answer = $First & $second; 
+	
+	echo("Bitwise & of 5 and 3 is $answer"); 
+	
+	echo "\n"; 
+	
+	// Bitwise OR 
+	$answer = $First | $second; 
+	echo("Bitwise | of 5 and 3 is $answer"); 
+	
+	echo "\n"; 
+	
+	// Bitwise XOR 
+	$answer = $First ^ $second; 
+	echo("Bitwise ^ of 5 and 3 is $answer"); 
+	
+	echo "\n"; 
+	
+	// Bitwise NOT 
+	$answer = ~$First; 
+	echo("Bitwise ~ of 5 is $answer"); 
+	
+	echo "\n"; 
+	
+	// Bitwise Left shift 
+	$second = 1; 
+	$answer = $First << $second; 
+	echo("5 << 1 will be $answer"); 
+	
+	echo "\n"; 
+	
+	// Bitwise Right shift 
+	$answer = $First >> $second; 
+	echo("5 >> 1 will be $answer"); 
+	
+	echo "\n"; 
+echo"\n";
+echo "executed by sehaj"
+?>

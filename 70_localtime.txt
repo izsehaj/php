@@ -1,0 +1,7 @@
+<?php
+print_r(localtime());
+echo "";
+print_r(localtime(time(),true));
+echo"\n";
+echo "executed by sehaj"
+?>

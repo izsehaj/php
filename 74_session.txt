@@ -1,0 +1,17 @@
+<?php
+
+    // Starting session
+    session_start();
+     
+    // Storing Session Variables
+    $_SESSION["firstname"] = "Sehajpreet";
+    $_SESSION["lastname"] = "Singh";
+    
+    
+    //Accessing Session Variables
+    echo "First name is " . $_SESSION["firstname"] ;
+    echo"\n";
+    echo "Last name is " . $_SESSION["lastname"];
+echo"\n";
+echo "executed by sehaj"
+?>

@@ -1,0 +1,4 @@
+<?php
+echo substr("Hello world",6); echo"\n";
+echo "executed by sehaj"
+?>

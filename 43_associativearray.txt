@@ -1,0 +1,23 @@
+<?php
+     
+    $salaries = array("roshan" => 2000, "twinkle" => 1000, "zara" => 500);
+     
+    echo "Salary of Roshan is ". $salaries['roshan'] ;
+    echo "\n";
+    echo "Salary of Twinkle is ".  $salaries['twinkle'] ;
+    echo "\n";
+    echo "Salary of Zara is ".  $salaries['zara'] ;
+    echo "\n";
+     
+    $salaries['roshan'] = "high";
+    $salaries['qadir'] = "medium";
+    $salaries['twinkle'] = "low";
+     
+    echo "Salary of Roshan is ". $salaries['roshan'] ;
+    echo "\n";
+    echo "Salary of Twinkle is ".  $salaries['twinkle'] ;
+    echo "\n";
+    echo "Salary of Zara is ".  $salaries['zara'] ;
+    echo "\n";
+    echo "executed by sehaj";
+?>

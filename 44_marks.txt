@@ -1,0 +1,34 @@
+<?php
+
+$marks = array( 
+    "sehaj" => array(
+        "physics" => 75,
+        "maths" => 90,    
+        "Bio" => 96,
+        "ip" => 100,
+        "psychology" => 80
+    )
+);
+
+echo "Marks for sehaj:";
+echo"\n";
+foreach ($marks['sehaj'] as $subject => $score) {
+    echo ucfirst($subject) . ": " . $score;    
+    echo "\n";            
+}
+
+$total_marks = array_sum($marks['sehaj']); 
+
+$total_subj = count($marks['sehaj']);  
+
+$out_of = $total_subj * 100;  
+$perc = ($total_marks / $out_of) * 100;
+echo "\n";
+echo "Total Marks: ".$total_marks;
+echo "\n";
+echo "Percentage: ".number_format($perc,2)."%";
+echo "\n";
+
+echo "executed by sehaj";
+
+?>

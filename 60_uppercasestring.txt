@@ -1,0 +1,4 @@
+<?php
+echo strtoupper("Hello WORLD!"); echo"\n";
+echo "executed by sehaj"
+?>

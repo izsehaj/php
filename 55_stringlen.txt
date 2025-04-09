@@ -1,0 +1,7 @@
+<?php
+$my_str = 'Welcome to Bharati Vidyapeeth';
+echo strlen($my_str); 
+echo"\n";
+echo "executed by sehaj"
+
+?>

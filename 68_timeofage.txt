@@ -1,0 +1,18 @@
+<?php
+
+    echo date("l");
+    echo"\n";
+
+    echo date("l jS \of F Y h:i:s A"); 
+    echo"\n";
+
+    echo "Oct 3,1975 was on a ".date("l", mktime(0,0,0,10,3,1975));
+    echo"\n";
+
+    echo date(DATE_RFC822);
+    echo"\n";
+
+    echo date(DATE_ATOM,mktime(0,0,0,10,3,1975));
+    echo"\n";
+echo "executed by sehaj"
+?>

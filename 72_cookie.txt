@@ -1,0 +1,12 @@
+<?php
+setcookie("username","sehaj",time()+30*24*60*60);
+if(isset($_COOKIE["username"])){
+   echo "Hi" . $_COOKIE["username"];
+}else{
+  echo "Welcome Guest!";
+  echo"\n";
+}
+print_r($_COOKIE);
+echo"\n";
+echo "executed by sehaj"
+?>

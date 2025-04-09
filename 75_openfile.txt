@@ -1,0 +1,5 @@
+<?php
+$file = fopen ("Welcome.txt", 'r');
+echo"\n";
+echo "executed by sehaj"
+?>

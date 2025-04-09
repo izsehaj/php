@@ -1,0 +1,4 @@
+<?php
+echo ucwords("hello world.");echo"\n";
+echo "executed by sehaj"
+?>

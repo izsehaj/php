@@ -1,0 +1,40 @@
+
+<?php
+
+        $marks = array( 
+            "garvit" => array(
+                "physics" => 35,
+                "maths" => 30,	
+                "chemistry" => 39
+                ),
+            
+            "vaibhav" => array(
+                "physics" => 30,
+                "maths" => 32,
+                "chemistry" => 29
+                ),
+            
+            "sehaj" => array(
+                "physics" => 31,
+                "maths" => 22,
+                "chemistry" => 39
+                )
+            );
+         
+         echo "Marks for Sehaj in chemistry : " ;
+         echo $marks['sehaj']['chemistry'] ;
+         echo "\n";
+
+         echo "Marks for Garvit in physics : " ;
+         echo $marks['garvit']['physics'];
+         echo "\n";
+         
+         echo "Marks for Vaibhav in maths : ";
+         echo $marks['vaibhav']['maths'] ;
+         echo "\n";
+
+         
+        
+	 echo"executed by sehaj"; 
+         
+?>

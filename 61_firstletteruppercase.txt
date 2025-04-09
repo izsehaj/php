@@ -1,0 +1,4 @@
+<?php
+echo ucfirst("hello world."); echo"\n";
+echo "executed by sehaj"
+?>
